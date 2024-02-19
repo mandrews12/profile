@@ -1,4 +1,4 @@
-// schema for profile data
+// schema for profile data updated with vs code
 {
   "$schema": "http://json-schema.org/draft-04/schema",
   "type": "object",
