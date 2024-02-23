@@ -57,6 +57,36 @@
     },
     "children": [
         {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "f35869c1-d814-4ccd-8ff9-245ed071edfe",
+                "Y": 584,
+                "RelativeX": 0,
+                "RelativeY": 584,
+                "position": "absolute",
+                "edgeOffsets": 584,
+                "style": {
+                    "position": "absolute",
+                    "left": "3.120003255208333%",
+                    "top": "81.01199949341735%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "3650f140-8579-4c41-b31c-0012a770db45",
+            "thunkableVersion": 446,
+            "name": "AdMob_Banner3"
+        },
+        {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
@@ -320,10 +350,10 @@
                 "Height": 45,
                 "Width": 311,
                 "Visible": true,
-                "X": 32,
-                "Y": 560,
-                "RelativeX": 32,
-                "RelativeY": 560,
+                "X": 30,
+                "Y": 541,
+                "RelativeX": 30,
+                "RelativeY": 541,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -364,7 +394,7 @@
                 },
                 "ParentId": "f35869c1-d814-4ccd-8ff9-245ed071edfe",
                 "position": "absolute",
-                "edgeOffsets": 560,
+                "edgeOffsets": 541,
                 "children": ""
             },
             "children": [],
@@ -378,8 +408,8 @@
             "translatedName": "Group",
             "reactType": "ViewWithProps",
             "properties": {
-                "Height": 58,
-                "Width": 330,
+                "Height": 50,
+                "Width": 332,
                 "Visible": false,
                 "X": 23,
                 "Y": 497,
@@ -391,7 +421,7 @@
                 "TouchOpacity": 20,
                 "ParentId": "f35869c1-d814-4ccd-8ff9-245ed071edfe",
                 "position": "absolute",
-                "edgeOffsets": 497.99999999999994,
+                "edgeOffsets": 497,
                 "style": {
                     "position": "absolute",
                     "left": "0%",

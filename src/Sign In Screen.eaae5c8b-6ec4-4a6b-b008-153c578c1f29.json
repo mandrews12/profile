@@ -57,6 +57,39 @@
     },
     "children": [
         {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "eaae5c8b-6ec4-4a6b-b008-153c578c1f29",
+                "Y": 617.3500366210938,
+                "RelativeX": 0,
+                "RelativeY": 617,
+                "position": "absolute",
+                "edgeOffsets": {
+                    "left": "22.586669921875%",
+                    "top": "92.55622737947432%"
+                },
+                "style": {
+                    "position": "absolute",
+                    "left": "22.586669921875%",
+                    "top": "92.55622737947432%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "fe40f013-c3b2-43b7-86b8-9a62331b3406",
+            "thunkableVersion": 446,
+            "name": "AdMob_Banner2"
+        },
+        {
             "type": "Image",
             "translatedName": "Image",
             "properties": {
@@ -116,10 +149,10 @@
                 "Height": 45,
                 "Width": 311,
                 "Visible": true,
-                "X": 31,
-                "Y": 596,
-                "RelativeX": 31,
-                "RelativeY": 596,
+                "X": 33,
+                "Y": 564,
+                "RelativeX": 33,
+                "RelativeY": 564,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -160,7 +193,7 @@
                 },
                 "ParentId": "eaae5c8b-6ec4-4a6b-b008-153c578c1f29",
                 "position": "absolute",
-                "edgeOffsets": 596,
+                "edgeOffsets": 564,
                 "children": ""
             },
             "children": [],
@@ -180,13 +213,13 @@
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
                 "TextAlign": "center",
-                "Height": 24,
-                "Width": 159,
+                "Height": 26,
+                "Width": 161,
                 "Visible": true,
                 "X": 107,
-                "Y": 539,
+                "Y": 515,
                 "RelativeX": 107,
-                "RelativeY": 539,
+                "RelativeY": 515,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -229,7 +262,7 @@
                 },
                 "ParentId": "eaae5c8b-6ec4-4a6b-b008-153c578c1f29",
                 "position": "absolute",
-                "edgeOffsets": 539,
+                "edgeOffsets": 515.7999877929688,
                 "children": "Sign In Instead",
                 "BackgroundColor": "rgba(255, 255, 255, 1)"
             },
@@ -252,9 +285,9 @@
                 "Width": 311,
                 "Visible": true,
                 "X": 31,
-                "Y": 452,
+                "Y": 436,
                 "RelativeX": 31,
-                "RelativeY": 452,
+                "RelativeY": 436,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "marginTop": 0,
@@ -285,7 +318,7 @@
                 "Disabled": false,
                 "ParentId": "eaae5c8b-6ec4-4a6b-b008-153c578c1f29",
                 "position": "absolute",
-                "edgeOffsets": 452.99999999999994
+                "edgeOffsets": 436.99999999999994
             },
             "children": [],
             "id": "b2e5cec2-e2c7-4422-9154-efa19b2dc40a",
@@ -399,8 +432,8 @@
             "properties": {
                 "Hint": "Type here",
                 "CustomFont": "",
-                "Height": 35,
-                "Width": 185,
+                "Height": 37,
+                "Width": 187,
                 "Visible": true,
                 "X": 177,
                 "Y": 246,
